@@ -29,6 +29,8 @@ public class Main {
         System.out.println(marine.kick());
         System.out.println(marine.speak());
 
+        Bomb bomb = new Bomb("Mega Bomb", "Super4", 435678689);
+        System.out.println(bomb.toString());
 
     }
 }
